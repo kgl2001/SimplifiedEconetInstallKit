@@ -1,10 +1,9 @@
 # Acorn BBC Micro Simplified Econet Installation module
 This module significantly reduces the amount of Econet components that need to be soldered directly onto the Beeb motherboard.
 
-Instead of soldering all the Econet components onto the beeb motherboard, This module can be used in place of a 8271 disc controller in the BBC micro computer.
-
 Some general notes:
 
+* For use with Issue 4 & Issue 7 model Bs only
 * The source files are to be used with KiCAD v9.0.0 or later.
 * The gerber files have been optimised for fabrication by JLCPCB. In particular, there is a 8mmx8mm silkscreen box on the rear of the PCB. This is to allow a 2D barcode, with unique serial number to be printed on the PCB.
 * If you want the barcode to be added, then make sure to select this option in the 'Mark on PCB' field, and make sure to select 'Specify position' in the '2D Barcode Position' field, otherwise you will end up with a white 8mm x 8mm box printed on your PCB and a 8mm x 8mm barcode printed at a position of JLCPCBs choosing. Thrust me on this!
